@@ -15,7 +15,7 @@
 body {
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
-    color: #050606;
+    color: #ffffff;
   }
   
   a {
@@ -146,7 +146,7 @@ body {
   }
   
   .heading h2 {
-    font-weight: normal;
+    font-weight: 700;
   }
   
   .lesson {
@@ -203,14 +203,12 @@ body {
     text-align: center;
   }
 
-  .partnership-wrapper .container .heading h2{
-    font-weight: 700;
-  }
   .flex-container {
     display: flex;
+    justify-content: center;
   }
 
-  .flex-container > div {
+  .partnership-wrapper .flex-container > div {
     margin: 10px;
     padding: 20px;
     font-size: 30px;
@@ -223,6 +221,47 @@ body {
 
   .partner-logo{
     height: 30px;
+  }
+
+  .service-wrapper{
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 80px;
+    text-align: center;
+    height: 540px;
+  }
+
+  .service-wrapper h2{
+    color: white;
+  }
+
+  .service-wrapper .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    height: 320px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .service-wrapper .flex-container > div:hover {
+    background-color: rgb(19, 105, 197);
+    border: 2px solid  rgb(19, 105, 197);
+    border-radius: 15px;
+  }
+
+  .service-wrapper .flex-container > div > img{
+    margin: 5px auto;
+  }
+
+  .service-wrapper .flex-container > div > h3{
+    font-size: 14pt;
+  }
+
+  .service-wrapper .flex-container > div > p{
+    font-size: 11pt;
   }
 
   footer img {
