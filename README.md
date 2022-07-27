@@ -6,4 +6,5 @@ Landing page travel tour yang menawarkan pesona wisata air indonesia. Tugas Digi
 - Fandy Syaukati Putra @zaskiadev
 - Gita Citra Puspita @wisataairindonesia
 - Gusti M Mispuansyah @gusti3111
+- I Gusti Ngurah Adi Wicaksana @wicak29
 
