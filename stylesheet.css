@@ -246,12 +246,6 @@ body {
     text-align: center;
   }
 
-  .service-wrapper .flex-container > div:hover {
-    background-color: rgb(19, 105, 197);
-    border: 2px solid  rgb(19, 105, 197);
-    border-radius: 15px;
-  }
-
   .service-wrapper .flex-container > div > img{
     margin: 5px auto;
   }
