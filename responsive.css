@@ -1,0 +1,8 @@
+@media(max-width:1024px)
+{
+    .image-slider { 
+        margin:20px auto;
+        width: 100%;
+        height: 550px; 
+      }
+}
