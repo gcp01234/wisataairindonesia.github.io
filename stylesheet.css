@@ -24,8 +24,9 @@ body {
     text-decoration: none;
   }
   
-  container {
-    width: 1170px;
+  .container {
+    max-width: 1170px;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -684,6 +685,7 @@ body {
     border-radius: 7px;
     border: 1px solid rgba(8,60,130,.07);
     box-shadow: 0 0 1.25rem rgb(30 34 40 / 4%);
+    box-sizing: border-box;
   }
 
   .form-control:focus {
@@ -710,6 +712,10 @@ body {
     top: 7px;
     box-shadow: none;
   }
+
+
+
+  /* End of Contact Form CSS */
 
   footer img {
     width: 125px;

@@ -1,0 +1,21 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .contact-img img {
+    max-width: 350px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .contact-wrapper .flex-container {
+    display: block;
+    text-align: center;
+  }
+  .contact-wrapper .column {
+    width: calc(100% - 30px);
+  }
+  .contact-wrapper .contact-submit {
+    width: 100%;
+    display: block;
+  }
+}
