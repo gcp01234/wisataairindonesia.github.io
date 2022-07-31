@@ -7,34 +7,40 @@
     <link rel="icon" href="icon/32.png">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
   </head>
   <body>
+    
     <!--Header & Jumbotron-->
     <header>
       <div class="container">
         <div class="header-left">
           <img class="logo" src="icon/512.png"> <span class="title">Wisata Air Indonesia</span> 
         </div>
-        <div class="header-right">
-          <a href="#beranda" class="nav-link">Beranda</a>
+        <div class="topnav" id="myTopnav">
+          <a href="#beranda" class="nav-link frist">Beranda</a>
           <a href="#tentang-kami" class="nav-link">Tentang Kami</a>
           <a href="#paket-wisata" class="nav-link">Paket Wisata</a>
           <a href="#partner-kami" class="nav-link">Partner Kami</a>
           <a href="#keunggulan" class="nav-link">Keunggulan</a>
           <a href="#kontak" class="nav-link">Kontak</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
       </div>
       </div>
     </header>
-    <div class="container">
-      <div class="flex-container">
-        <div class="jumbotron">
-          <div class=image-slider>
-            <div class=isi-slider>
-              <img src="images/pantai1.jpeg" alt="Gambar 1">
-              <img src="images/pantai2.jpeg" alt="Gambar 2">
-              <img src="images/pantai3.jpeg" alt="Gambar 3">
-              <img src="images/pantai4.jpeg" alt="Gambar 4">
+    <div class="jumbotron-wrapper">
+      <div>
+        <div class="flex-container">
+          <div class="jumbotron">
+            <div class=image-slider>
+              <div class=isi-slider>
+                <img src="images/pantai1.jpeg" alt="Gambar 1">
+                <img src="images/pantai2.jpeg" alt="Gambar 2">
+                <img src="images/pantai3.jpeg" alt="Gambar 3">
+                <img src="images/pantai4.jpeg" alt="Gambar 4">
+              </div>
             </div>
           </div>
         </div>
@@ -151,6 +157,7 @@
         <div class="container">
           <div class="heading">
             <h2>Partner Kami</h2>
+            <h3>Kami sudah bekerja sama dengan platform yang mendukung travel untuk memberikan kenyamanan travelmu.</h3>
           </div>
           <div class="flex-container">
             <div>
@@ -189,7 +196,8 @@
     <div class="service-wrapper" id="keunggulan">
         <div class="container">
           <div class="heading">
-            <h2>Kenapa kamu harus merencanakan liburan serumu bersama kami?</h2>
+            <h2>Keunggulan</h2>
+            <h3>Kenapa kamu harus merencanakan liburan serumu bersama kami?</h3>
           </div>
           
           <div class="flex-container">
@@ -259,7 +267,7 @@
 
     <!--footer-->
     <footer>
-      <div class="container">
+      <div class="flex-container">
         <div class="judul-footer">
           <img src="icon/512.png" class="icon-footer">
           <h3>Wisata Air Indonesia</h3>
@@ -282,34 +290,34 @@
             Follow us on
           </h3>
           <ul class="social-media">
-            <li class="twitter">
+            <li>
               <a href="#" class="btn twitter">
                 <span class="fa fa-twitter"></span>
-                Twitter
+                <span class="label">Twitter</span>
               </a>
              </li>
-             <li class="instagram">
+             <li>
                <a href="#" class="btn instagram">
                  <span class="fa fa-instagram"></span>
-                 Instagram
+                 <span class="label">Instagram</span>
                </a>
               </li>
-             <li class="youtube">
+             <li>
               <a href="#" class="btn youtube">
                 <span class="fa fa-youtube"></span>
-                Youtube
+                <span class="label">Youtube</span>
               </a>
              </li>
-             <li class="facebook">
+             <li>
                 <a href="#" class="btn facebook">
                 <span class="fa fa-facebook"></span>
-                Facebook
+                <span class="label">Facebook</span>
                 </a>
               </li>
-              <li class="whatsapp">
+              <li>
                 <a href="#" class="btn whatsapp">
                   <span class="fa fa-whatsapp"></span>
-                  WhatsApp
+                  <span class="label">WhatsApp</span>
                 </a>
                </li>
              </li>
@@ -321,6 +329,15 @@
       </div>
     </footer>
     <!--footer-->
-    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>

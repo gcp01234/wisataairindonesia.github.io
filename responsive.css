@@ -4,11 +4,135 @@
     max-width: 350px;
   }
 
-  .isi-slider img, .image-slider { 
-    height: 250px; 
+  .topnav a{
+    display: none;
   }
 
-  /* display about gallery untuk tablet dan smartphone */
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .topnav.responsive > a.frist{
+    margin-top: 50px;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .img-about img{
+    display: none;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    margin: 0px;
+  }
+  
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .heading h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .service-wrapper .flex-container > div {
+    margin: 15px auto;
+  }
+
+  }
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  /* .topnav a{
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .topnav.responsive > a.frist{
+    margin-top: 50px;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .img-about img{
+    display: none;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    margin: 0px;
+  }
+  
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .heading h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .service-wrapper .flex-container > div {
+    margin: 15px auto;
+  } */
+
+  .contact-wrapper .flex-container {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-wrapper .column {
+    width: calc(100% - 30px);
+  }
+  .contact-wrapper .contact-submit {
+    width: 100%;
+    display: block;
+  }
+  .judul-footer{
+    display: none;
+  }
+  footer .label{
+    display: none;
+  }
+  .social-media .btn{
+    width: 15px;
+    float: left;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .about-wrapper .container .flex-container{
     display: flex;
     flex-direction: column;
@@ -26,9 +150,13 @@
   .fadeIn-top {
     top: 50%;
   }
+
+  .isi-slider img, .image-slider { 
+    height: 250px; 
+  }
+
 }
 
-/* display about gallery untuk tablet dan smartphone */
 @media screen and (min-width: 1000px) {
 
   .content .content-overlay {
@@ -43,19 +171,4 @@
     top: 20%;
   }
 
-}
-
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
-  .contact-wrapper .flex-container {
-    display: block;
-    text-align: center;
-  }
-  .contact-wrapper .column {
-    width: calc(100% - 30px);
-  }
-  .contact-wrapper .contact-submit {
-    width: 100%;
-    display: block;
-  }
 }
