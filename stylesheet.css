@@ -263,7 +263,7 @@ body {
   header {
     height: 65px;
     width: 100%;
-    background-color: rgba(11, 200, 221, 0.3);
+    background-color: rgba(11, 200, 221);
     /* Ubah position ke fixed, dan top ke 0 */
     position: fixed;
     top: 0;
@@ -307,6 +307,8 @@ body {
     border: hidden;
   
     border-color: rgba(11, 200, 221, 0.3);
+    color: white;
+    font-weight: bold;
   }
   
   .header-right a:hover {
