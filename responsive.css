@@ -65,7 +65,19 @@
     width: 100%;
     display: block;
   }
-
+  .judul-footer{
+    display: none;
+  }
+  footer .label{
+    display: none;
+  }
+  .social-media .btn{
+    width: 15px;
+    float: left;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 50px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
