@@ -2,95 +2,155 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wisata Air Indonesia</title>
     <link rel="icon" href="icon/32.png">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
   </head>
   <body>
+    
     <!--Header & Jumbotron-->
     <header>
       <div class="container">
         <div class="header-left">
-          <img class="logo" src="icon/512.png"> <span class="title">Wisata Air Indoneisa</span> 
+          <img class="logo" src="icon/512.png"> <span class="title">Wisata Air Indonesia</span> 
         </div>
-        <div class="header-right">
-          <a href="#" class="login">Log in</a>
-            <a href="#" class="Paket ">Paket Wisata</a>
-            <a href="#" class="login">Tentang Kami</a>
-          
-          
+        <div class="topnav" id="myTopnav">
+          <a href="#beranda" class="nav-link frist">Beranda</a>
+          <a href="#tentang-kami" class="nav-link">Tentang Kami</a>
+          <a href="#paket-wisata" class="nav-link">Paket Wisata</a>
+          <a href="#partner-kami" class="nav-link">Partner Kami</a>
+          <a href="#keunggulan" class="nav-link">Keunggulan</a>
+          <a href="#kontak" class="nav-link">Kontak</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
       </div>
     </header>
-
-    <div class="jumbotron">
+    <div class="jumbotron" ID="beranda">
       <div class=image-slider>
         <div class=isi-slider>
           <img src="images/pantai1.jpeg" alt="Gambar 1">
           <img src="images/pantai2.jpeg" alt="Gambar 2">
           <img src="images/pantai3.jpeg" alt="Gambar 3">
           <img src="images/pantai4.jpeg" alt="Gambar 4">
-       
         </div>
       </div>
     </div>
     <!--Header & Jumbotron-->
-    
+
     <!--About & Galery-->
-    <div class="lesson-wrapper">
+    <div class="about-wrapper" id="tentang-kami">
       <div class="container">
-        <div class="heading">
-          <h2>Cari tau dari mana Anda mau memulai!</h2>
-        </div>
-        <div class="lessons">
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/html.png">
-               <p>HTML & CSS</p>
-            </div>
-            <p class="txt-contents">Bahasa yang digunakan untuk membuat dan mendesain tampilan situs web Anda. </p>
+        <div class="flex-container">
+          <div class="img-about">
+            <img src="images/undraw_best_place_re_lne9.svg" alt="traveling">
           </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-              <p>jQuery</p>
+          <div class="box-about">
+            <div class="heading ">
+              <h2>Tentang Kami</h2>
             </div>
-            <p class="txt-contents">Library JavaScript yang cepat, kaya akan fitur, dan mudah digunakan yang menangani animasi dan permintaan Ajax.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/ruby.png">
-              <p>Ruby</p>
+            <div class="desc-about">
+              <p>
+                Wisata Air Indonesia telah berpengalaman lebih dari 5 tahun dalam melayani wisatawan domestik maupun mancanegara pelayanan terbaik dan ramah kami berikan. Kami menyediakan berbagai macam paket perjalanan ke seluruh Indonesia dengan harga terjangkau dan pelayanan terbaik.
+              </p>
+              <p>
+                Kemudahan dan kenyamanan Anda liburan menjadi yang paling utama. Perjalanan wisata keluarga, sekolah, perusahaan, atau tour bersama pasangan dan rombongan akan lebih berkesan. Didukung dengan akomodasi transportasi lengkap, kami siap mengantarkan anda ke berbagai destinasi menarik.
+              </p>
             </div>
-            <p class="txt-contents">Bahasa dinamis, serba guna yang sederhana dan produktif. Ruby sering digunakan untuk membuat aplikasi web yang responsive.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/php.png">
-              <p>PHP</p>
-            </div>
-            <p class="txt-contents">Bahasa skrip open source yang dapat disematkan ke dalam HTML, dan cocok untuk pengembangan web.</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="message-wrapper">
+
+    <div class="gallery-wrapper" id="paket-wisata">
       <div class="container">
-        <div class="heading">
-          <h2>Apakah Anda siap untuk menjadi programer yang handal?</h2>
-          <h3>Ayo belajar coding, ayo belajar menjadi lebih kreatif!</h3>
-        </div>
-        <span class="btn message">Mulai Belajar</span>
+        <div class="flex-column">
+          <div class="heading">
+            <h2>Paket Wisata</h2>
+            <h3>Mau Wisata kemana hari ini?</h3>
+          </div>
+          <div class="flex-row">
+              <div class="content">
+                <a href="#" target="_blank">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="images/paket-wisata/bali.jpg" alt="bali">
+                  <div class="content-details fadeIn-top">
+                    <h3>Bali</h3>
+                    <p>Lihat Paket >> </p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="content">
+                <a href="#" target="_blank">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="images/paket-wisata/lombok.jpg" alt="bali">
+                  <div class="content-details fadeIn-top">
+                    <h3>Lombok</h3>
+                    <p>Lihat Paket >> </p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="content">
+                <a href="#" target="_blank">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="images/paket-wisata/raja-ampat.jpg" alt="bali">
+                  <div class="content-details fadeIn-top">
+                    <h3>Raja Ampat</h3>
+                    <p>Lihat Paket >> </p>
+                  </div>
+                </a>
+              </div>
+          </div>
+          <div class="flex-row">
+            <div class="content">
+              <a href="#" target="_blank">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/paket-wisata/bunaken.jpg" alt="bali">
+                <div class="content-details fadeIn-top">
+                  <h3>Taman Nasional Bunaken</h3>
+                  <p>Lihat Paket >> </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="content">
+              <a href="#" target="_blank">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/paket-wisata/ujung-kulon.jpg" alt="bali">
+                <div class="content-details fadeIn-top">
+                  <h3>Taman Nasional Ujung Kulon</h3>
+                  <p>Lihat Paket >> </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="content">
+              <a href="#" target="_blank">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/paket-wisata/pulau-seribu.jpg" alt="bali">
+                <div class="content-details fadeIn-top">
+                  <h3>Kepulauan Seribu</h3>
+                  <p>Lihat Paket >> </p>
+                </div>
+              </a>
+            </div>
+          </div>
+       </div>
       </div>
     </div>
     <!--About & Galery-->
 
     <!--Partnership & Service-->
-    <div class="partnership-wrapper">
+    <div class="partnership-wrapper" id="partner-kami">
         <div class="container">
           <div class="heading">
             <h2>Partner Kami</h2>
+            <h3>Kami sudah bekerja sama dengan platform yang mendukung travel untuk memberikan kenyamanan travelmu.</h3>
           </div>
           <div class="flex-container">
             <div>
@@ -126,10 +186,11 @@
           </div>
         </div>
     </div>  
-    <div class="service-wrapper">
+    <div class="service-wrapper" id="keunggulan">
         <div class="container">
           <div class="heading">
-            <h2>Kenapa kamu harus merencanakan liburan serumu bersama kami?</h2>
+            <h2>Keunggulan</h2>
+            <h3>Kenapa kamu harus merencanakan liburan serumu bersama kami?</h3>
           </div>
           
           <div class="flex-container">
@@ -164,7 +225,7 @@
     <!--Partnership & Service-->
 
     <!-- Contact Form --> 
-    <div class="contact-wrapper">
+    <div class="contact-wrapper" id="kontak">
       <div class="container">
         <div class="heading">
           <h2>Hubungi Kami</h2>
@@ -199,12 +260,77 @@
 
     <!--footer-->
     <footer>
-      <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Learn to code, learn to be creative.</p>
+      <div class="flex-container">
+        <div class="judul-footer">
+          <img src="icon/512.png" class="icon-footer">
+          <h3>Wisata Air Indonesia</h3>
+        </div>
+        <!-- payment Method -->
+        <div class="payment">
+          <h3 class="judul-payment">Payment Method</h3>
+          <div class="payment-method">
+            <img class="btn visa" src="https://img.icons8.com/color/48/000000/visa.png"/>
+            <img class="btn paypal" src="icon/paypal.png"/>
+            <img class=" btn mastercard" src="icon/mastercard.png"/>
+            <img class="btn bank" src="icon/bank-card-back-side.png">
+            <img class="btn google" src="icon/google.png">
+            <img class="btn ovo" src="icon/ovo.png" alt="">
+          </div>
+        </div>
+        <!-- follow us -->
+        <div class="followus">
+          <h3 class="judul-followus">
+            Follow us on
+          </h3>
+          <ul class="social-media">
+            <li>
+              <a href="#" class="btn twitter">
+                <span class="fa fa-twitter"></span>
+                <span class="label">Twitter</span>
+              </a>
+             </li>
+             <li>
+               <a href="#" class="btn instagram">
+                 <span class="fa fa-instagram"></span>
+                 <span class="label">Instagram</span>
+               </a>
+              </li>
+             <li>
+              <a href="#" class="btn youtube">
+                <span class="fa fa-youtube"></span>
+                <span class="label">Youtube</span>
+              </a>
+             </li>
+             <li>
+                <a href="#" class="btn facebook">
+                <span class="fa fa-facebook"></span>
+                <span class="label">Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="btn whatsapp">
+                  <span class="fa fa-whatsapp"></span>
+                  <span class="label">WhatsApp</span>
+                </a>
+               </li>
+             </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy-rights">
+        <p><span class="fa fa-copyright"></span>2022 A07 team Allrights Reserverd.</p>
       </div>
     </footer>
     <!--footer-->
-    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>
