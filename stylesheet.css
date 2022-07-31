@@ -264,13 +264,12 @@ header {
   float: left;
 }
 
-.nav {
-  height: 65px;
+.topnav {
+  overflow: hidden;
   float: right;
-  transition: all 0.5s;
 }
 
-.nav a {
+.topnav a {
   float:left;
   list-style: none;
   line-height: 65px;
@@ -282,9 +281,18 @@ header {
   color: #000930;
 }
 
-.nav a:hover {
+.topnav a:hover {
   background-color: rgba(0, 77, 144);
   color: white;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
 }
 
 .heading {
