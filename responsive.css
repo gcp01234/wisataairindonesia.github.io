@@ -4,6 +4,10 @@
     max-width: 350px;
   }
 
+  .isi-slider img, .image-slider { 
+    height: 250px; 
+  }
+
   /* display about gallery untuk tablet dan smartphone */
   .about-wrapper .container .flex-container{
     display: flex;
