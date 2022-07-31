@@ -1,4 +1,9 @@
-@media screen and (max-width: 1000px) {
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .contact-img img {
+    max-width: 350px;
+  }
+
   .about-wrapper .container .flex-container{
     display: flex;
     flex-direction: column;
@@ -15,12 +20,11 @@
 
   .fadeIn-top {
     top: 50%;
-  }
-
+  }  
 }
 
-@media screen and (min-width: 1000px) {
-
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
   .content .content-overlay {
     opacity: 0;
   }
@@ -32,18 +36,6 @@
   .fadeIn-top {
     top: 20%;
   }
-
-}
-
-/* Untuk Tablet */
-@media all and (max-width: 1000px) {
-  .contact-img img {
-    max-width: 350px;
-  }
-}
-
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
   .contact-wrapper .flex-container {
     display: block;
     text-align: center;

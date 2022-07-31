@@ -220,19 +220,6 @@ a {
   margin: 10px 0;
 }
 
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
 .btn {
   padding: 12px 24px;
   color: white;
@@ -564,8 +551,14 @@ input, textarea {
 }
 /* End of Contact Form CSS */
 
+/*footer*/
 
-/**/
+footer{
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 footer img {
   padding-top: 50px;
   width: 125px;
@@ -580,14 +573,9 @@ footer h3{
 }
 
 footer p {
-  color: rgba(255, 255, 255, 0.726);
   font-size: 15px;
   text-align: center;
   opacity: 10;
-}
-
-footer{
-  margin-top: 250px;
 }
 
 footer .container  {
@@ -597,7 +585,6 @@ footer .container  {
   z-index: 0;
   justify-content: space-evenly; 
   align-items:stretch;
-  background-color: #98a8b4;
 }
 
 footer .container div{
@@ -607,10 +594,16 @@ footer .container div{
 
 footer .copy-rights{
   display: flex;
-  background-color: #98a8b4;
   height:fit-content;
   width: 100%;
   justify-content: center;
+}
+
+footer .judul-footer img{
+  background-color: white;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 80px;
 }
 
 footer .container .followus{
@@ -630,9 +623,11 @@ footer .social-media{
 
 .btn{
   border-radius: 5px;
+  width: 120px;
 }
 
 footer .btn:hover{
+  animation: shake 3s;
   opacity: 10;
 }
 
@@ -649,6 +644,7 @@ footer .youtube{
 }
 
 footer .facebook{
+  background-color: #3b5998;
   border-radius: 10px;
   margin-top: 5px;
 }
@@ -681,6 +677,6 @@ footer .payment-method img{
 }
 
 footer .google{
-  height: 50px;
+  height: 25px;
 }
 
