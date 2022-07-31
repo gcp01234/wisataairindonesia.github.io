@@ -33,6 +33,9 @@
     top: 0;
   }
 
+  .img-about img{
+    display: none;
+  }
   .topnav.responsive a {
     float: none;
     display: block;
