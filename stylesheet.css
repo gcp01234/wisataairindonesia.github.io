@@ -313,9 +313,14 @@ header {
   border: hidden;
 }
 
+.topnav a.icon
+{
+  display: none;
+}
 
-.topnav a:hover {
+.topnav a.icon:hover {
   background-color: rgba(50, 0, 213, 0.5);
+  display: block;
 }
 
 .topnav a {
