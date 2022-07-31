@@ -30,10 +30,10 @@
   opacity: 0; 
   }     
   25% {
-  left: -1400px; opacity: 1; 
+  left: -1500px; opacity: 1; 
   }       
   45% {
-  left: -1400px; opacity: 1; 
+  left: -1500px; opacity: 1; 
   }     
   46% {
   opacity: 0; 
@@ -42,10 +42,10 @@
   opacity: 0; 
   }     
   50% {
-  left: -2800px; opacity: 1; 
+  left: -3000px; opacity: 1; 
   }     
   70% {
-  left: -2800px; opacity: 1; 
+  left: -3000px; opacity: 1; 
   }     
   72% {
   opacity: 0; 
@@ -54,13 +54,13 @@
   opacity: 0; 
   }    
   75% {
-  left: -4200px; opacity: 1; 
+  left: -4500px; opacity: 1; 
   }   	
   95% {
-  left: -4200px; opacity: 1; 
+  left: -4500px; opacity: 1; 
   }   	
   97% { 
-  left: -4200px; opacity: 0;
+  left: -4500px; opacity: 0;
   }   	
   100% {
   left: 0; opacity: 0; 
@@ -84,10 +84,10 @@
   opacity: 0; 
   }     
   25% {
-  left: -1400px; opacity: 1; 
+  left: -1500px; opacity: 1; 
   }     
   45% {
-  left: -1400px; opacity: 1; 
+  left: -1500px; opacity: 1; 
   }     
   46% {
   opacity: 0; 
@@ -96,10 +96,10 @@
   opacity: 0; 
   }     
   50% {
-  left: -2800px; opacity: 1; 
+  left: -3000px; opacity: 1; 
   }     
   70% {
-  left: -2800px; opacity: 1; 
+  left: -3000px; opacity: 1; 
   }     
   72% {
   opacity: 0; 
@@ -108,13 +108,13 @@
   opacity: 0; 
   }    
   75% {
-  left: -4200px; opacity: 1; 
+  left: -4500px; opacity: 1; 
   }   	
   95% {
-  left: -4200px; opacity: 1; 
+  left: -4500px; opacity: 1; 
   }   	
   97% { 
-  left: -4200px; opacity: 0; 
+  left: -4500px; opacity: 0; 
   } 
   100% {
   left: 0; opacity: 0; 
@@ -141,22 +141,15 @@ a {
 
 /*Style header and jumbotron*/
 
-.jumbotron-wrapper {
-  margin: 5px 0;
-  background-color: #f7f7f7;
-  padding-bottom: 20px;
-}
-
+/*Style header and jumbotron*/
 .jumbotron
 { 
   padding-top:5%;
   width: 100%;
-  flex-grow: 1;
-  flex-direction: column;
 }
 
 .image-slider { 
-  border: 10px solid #efefef; 
+
   position: relative; 
   overflow: hidden; 
   background: #efefef;
@@ -164,15 +157,14 @@ a {
 
 .image-slider { 
   margin:20px auto;
-  width: 100%;
+  width: 100%x;
   height: 550px; 
 }
 
 .isi-slider img { 
-  width: 100%;
+  width: 1500px;
   height: 550px; 
   float: left;
-  object-fit: cover;
 }
 
 .isi-slider { 
