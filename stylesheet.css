@@ -13,42 +13,6 @@
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-@media screen and (max-width: 1000px) {
-  .about-wrapper .container .flex-container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .content .content-overlay {
-    opacity: 0.7;
-  }
-
-  .content-details {
-    opacity: 1;
-  }
-
-  .fadeIn-top {
-    top: 50%;
-  }
-
-}
-
-@media screen and (min-width: 1000px) {
-
-  .content .content-overlay {
-    opacity: 0;
-  }
-
-  .content-details {
-    opacity: 0;
-  }
-
-  .fadeIn-top {
-    top: 20%;
-  }
-
-}
 
 body {
     margin: 0;
