@@ -33,11 +33,10 @@ body {
 
   .jumbotron
   {
-    width: 100px;
-    height: 100%;
+   
     padding-top:5%;
-    padding-left: 20%;
-    padding-right: 30%;
+    width: 100%;
+   
   }
 
   .image-slider { 
@@ -49,19 +48,20 @@ body {
    
   .image-slider { 
     margin:20px auto;
-    width: 768px;
-    height: 450px; 
+    width: 1400px;
+    height: 550px; 
   }
    
   .isi-slider img { 
-    width: 768px;
-    height: 450px; 
+    width: 1400px;
+    height: 550px; 
     float: left;
+    
   }
    
   .isi-slider { 
     position: absolute; 
-    width:3900px;  
+    width:7000px;  
    
 
     animation-name:slider;
@@ -88,84 +88,10 @@ body {
     -webkit-animation-play-state:paused; 
     -moz-animation-play-state:paused; 
     -o-animation-play-state:paused; 
-    animation-play-state:paused; 
-  }
+    animation-play-state:paused; }
+  
    
-  .isi-slider img { 
-    float: right; 
-  }
-   
-  .image-slider:after { 
-    font-size: 150px; 
-    position: absolute; 
-    z-index: 12; 
-    color: rgba(255,255,255, 0); 
-    left: 300px; top: 80px; 
-    -webkit-transition: 1s all ease-in-out; 
-    -moz-transition: 1s all ease-in-out; 
-    transition: 1s all ease-in-out; 
-  }
-   
-  .image-slider:hover:after { 
-    color: rgba(255,255,255, 0.6);  
-  }
-   
-   
-   
-  @-moz-keyframes slider {     
-    0% {
-      left: 0; opacity: 0; 
-    }     
-    2% {
-      opacity: 1; 
-    }     
-    20% {
-      left: 0; opacity: 1; 
-    }     
-    21% {
-      opacity: 0; 
-    }     
-    24% {
-      opacity: 0; 
-    }     
-    25% {
-      left: -768px; opacity: 1; 
-    }       
-    45% {
-      left: -768px; opacity: 1; 
-    }     
-    46% {
-      opacity: 0; 
-    }     
-    48% {
-      opacity: 0; 
-    }     
-    50% {
-      left: -1536px; opacity: 1; 
-    }     
-    70% {
-      left: -1536px; opacity: 1; 
-    }     
-    72% {
-      opacity: 0; 
-    }     
-    74% {
-      opacity: 0; 
-    }    
-    75% {
-      left: -2304px; opacity: 1; 
-    }   	
-    95% {
-      left: -2304px; opacity: 1; 
-    }   	
-    97% { 
-      left: -2304px; opacity: 0;
-    }   	
-    100% {
-      left: 0; opacity: 0; 
-    }
-  } 
-   
+
   @-webkit-keyframes slider {     
     0% {
       left: 0; opacity: 0; 
@@ -183,10 +109,10 @@ body {
       opacity: 0; 
     }     
     25% {
-      left: -768px; opacity: 1; 
+      left: -1400px; opacity: 1; 
     }       
     45% {
-      left: -768px; opacity: 1; 
+      left: -1400px; opacity: 1; 
     }     
     46% {
       opacity: 0; 
@@ -195,10 +121,10 @@ body {
       opacity: 0; 
     }     
     50% {
-      left: -1536px; opacity: 1; 
+      left: -2800px; opacity: 1; 
     }     
     70% {
-      left: -1536px; opacity: 1; 
+      left: -2800px; opacity: 1; 
     }     
     72% {
       opacity: 0; 
@@ -207,13 +133,13 @@ body {
       opacity: 0; 
     }    
     75% {
-      left: -2304px; opacity: 1; 
+      left: -4200px; opacity: 1; 
     }   	
     95% {
-      left: -2304px; opacity: 1; 
+      left: -4200px; opacity: 1; 
     }   	
     97% { 
-      left: -2304px; opacity: 0;
+      left: -4200px; opacity: 0;
     }   	
     100% {
       left: 0; opacity: 0; 
@@ -238,10 +164,10 @@ body {
       opacity: 0; 
     }     
     25% {
-      left: -768px; opacity: 1; 
+      left: -1400px; opacity: 1; 
     }     
     45% {
-      left: -768px; opacity: 1; 
+      left: -1400px; opacity: 1; 
     }     
     46% {
       opacity: 0; 
@@ -250,10 +176,10 @@ body {
       opacity: 0; 
     }     
     50% {
-      left: -1536px; opacity: 1; 
+      left: -2800px; opacity: 1; 
     }     
     70% {
-      left: -1536px; opacity: 1; 
+      left: -2800px; opacity: 1; 
     }     
     72% {
       opacity: 0; 
@@ -262,19 +188,20 @@ body {
       opacity: 0; 
     }    
     75% {
-      left: -2304px; opacity: 1; 
+      left: -4200px; opacity: 1; 
     }   	
     95% {
-      left: -2304px; opacity: 1; 
+      left: -4200px; opacity: 1; 
     }   	
     97% { 
-      left: -2304px; opacity: 0; 
+      left: -4200px; opacity: 0; 
     } 
    
     100% {
       left: 0; opacity: 0; 
     }
   }
+  
   
   .top-wrapper {
     padding: 180px 0 100px 0;
@@ -663,16 +590,133 @@ body {
 
   /* End of Contact Form CSS */
 
+ 
   footer img {
+    padding-top: 50px;
     width: 125px;
+
+    margin-left: 50px;
   }
+  footer h3{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 25px;
+  }
+   
+
+  
   
   footer p {
-    color: #b3aeb5;
-    font-size: 12px;
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 15px;
+    text-align: center;
+  
+    opacity: 10;
+  
+
+  }
+  footer{
+    margin-top: 250px;
   }
   
-  footer {
-    padding-top: 30px;
+  footer .container  {
+    display: flex;
+    width: 100%;
+    /* mengatur arah container */
+    /* flex-direction: column; */
+    box-sizing: border-box;
+    z-index: 0;
+    justify-content: space-evenly; 
+    align-items:stretch;
+    /* background-color:  #d3c9c9; */
+    background-color: #98a8b4;
+    /* background-color: #d4d1d4; */
+    /* background-color:rgba(11, 200, 221, 0.863) ;
+     */
   }
 
+  footer .container div{
+    width:250px ;
+    margin: 2px;
+  }
+  footer .copy-rights{
+    display: flex;
+    background-color: #98a8b4;
+    height:fit-content;
+    /* background-color:rgba(11, 200, 221, 0.863) ; */
+    width: 100%;
+    justify-content: center;
+  }
+
+  footer .container .followus{
+    text-align: center;
+    list-style: none;
+  }
+
+  footer .judul-followus{
+    font-size: 20px;
+  }
+
+  footer .social-media{
+    list-style: none;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .btn{
+    border-radius: 5px;
+  }
+
+   footer .btn:hover{
+    opacity: 10;
+  }
+  footer .instagram{
+    background-color: #3f729b;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+
+  footer .youtube{
+    background-color: #c4302b;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+
+  footer .facebook{
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+
+  footer .twitter{
+    background-color: #00b6eef1;
+    border-radius: 10px;
+  }
+
+  footer .whatsapp{
+    background-color: #5dca88;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+
+  footer .container div.payment{
+    width: 300px;
+  }
+
+  footer .payment-method {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap:wrap;
+  }
+
+  footer .payment-method img{
+     /* background-color: black; */
+    width: 50px;
+    margin: 2px;
+    justify-content: flex-end;
+  }
+
+  footer .google{
+    height: 50px;
+  }
+  
