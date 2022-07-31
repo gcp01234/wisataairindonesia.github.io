@@ -456,8 +456,6 @@ body {
     font-size: 0.8em;
   }
 
-
-
   .partnership-wrapper{
     border-bottom: 1px solid #eee;
     background-color: #f7f7f7;
@@ -468,6 +466,12 @@ body {
   .flex-container {
     display: flex;
     justify-content: center;
+  }
+
+  .content-partner {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
   }
 
   .partnership-wrapper .flex-container > div {
