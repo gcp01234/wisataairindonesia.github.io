@@ -1,45 +1,16 @@
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
   .contact-img img {
     max-width: 350px;
   }
 
-  .topnav a{
-    display: none;
-  }
-
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-
-  .topnav.responsive {
-    position: relative;
-    background-color: white;
-    padding: 10px;
-  }
-
-  .topnav.responsive > a.frist{
-    margin-top: 50px;
-  }
-
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+  
 
   .img-about img{
     display: none;
   }
 
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-    margin: 0px;
-  }
-  
+   
   .flex-container {
     flex-direction: column;
   }
@@ -52,6 +23,8 @@
   .service-wrapper .flex-container > div {
     margin: 15px auto;
   }
+
+  
 
   }
 
@@ -131,6 +104,44 @@
     border-radius: 50px;
   }
 
+  /*.topnav a{
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .topnav.responsive > a.frist{
+    margin-top: 50px;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    margin: 0px;
+  }
+
+  .topnav :hover{
+    background-color: blue;
+  }
+  */
+
+  
+
   /*image slider*/
   .image-slider { 
     margin:20px auto;
@@ -146,29 +157,6 @@
 .isi-slider { 
   position: absolute; 
   width:5000px;  
-  animation-name:slider;
-  animation-duration:16s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count:infinite;
-  -webkit-animation-name:slider;
-  -webkit-animation-duration:16s;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count:infinite;
-  -moz-animation-name:slider;
-  -moz-animation-duration:16s;
-  -moz-animation-timing-function: ease-in-out;
-  -moz-animation-iteration-count:infinite;
-  -o-animation-name:slider;
-  -o-animation-duration:16s;
-  -o-animation-timing-function: ease-in-out;
-  -o-animation-iteration-count:infinite;
-}
-
-.isi-slider:hover { 
-  -webkit-animation-play-state:paused; 
-  -moz-animation-play-state:paused; 
-  -o-animation-play-state:paused; 
-  animation-play-state:paused; 
 }
 
 
@@ -325,7 +313,7 @@
 
 @media all and (max-width: 768px)
 {
-  .topnav a{
+  /*.topnav a{
     display: none;
     padding-left: 20px;
   }
@@ -350,12 +338,12 @@
     position: absolute;
     right: 0;
     top: 0;
-  }
+  }*/
 
   .img-about img{
     display: none;
   }
-  .topnav.responsive a {
+ /* .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;

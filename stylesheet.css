@@ -265,7 +265,7 @@ header {
   float: left;
 }
 
-.topnav {
+/*.topnav {
   overflow: hidden;
   float: right;
 }
@@ -294,6 +294,38 @@ header {
 
 .topnav .icon {
   display: none;
+}*/
+
+.topnav {
+  height: 65px;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  /*background-color: rgba(11, 200, 221, 0.3);*/
+  transition: all 0.5s;
+}
+
+.topnav a
+{
+  float:left;
+  list-style: none;
+  margin-bottom: 10px;
+  border-style: dashed;
+  border: hidden;
+}
+
+
+.topnav a:hover {
+  background-color: rgba(50, 0, 213, 0.5);
+}
+
+.topnav a {
+  line-height: 65px;
+  padding: 0 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom:50px;
+  text-align: center;
+  display: block;
 }
 
 .heading {
