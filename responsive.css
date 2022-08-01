@@ -13,17 +13,17 @@
     display: block;
   }
 
-  .topnav.responsive {
+  .topnav:hover {
     position: relative;
     background-color: white;
     padding: 10px;
   }
 
-  .topnav.responsive > a.frist{
+  .topnav:hover > a.frist{
     margin-top: 50px;
   }
 
-  .topnav.responsive .icon {
+  .topnav:hover .icon {
     position: absolute;
     right: 0;
     top: 0;
@@ -33,7 +33,7 @@
     display: none;
   }
 
-  .topnav.responsive a {
+  .topnav:hover a {
     float: none;
     display: block;
     text-align: left;
